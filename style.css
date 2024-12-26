@@ -1,0 +1,50 @@
+body {
+    background-color: #f8f9fa; 
+}
+nav {
+    background-color: #052962; 
+}
+
+.nav-link {
+    color: white; 
+    padding: 10px 15px;
+    font-size: 30px;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    color: white; 
+}
+.navbar-brand {
+    color: white; 
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 12ch;
+    line-height: normal;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+#div-list{
+    border: 0.5px solid grey;
+    border-bottom: none;
+    font-size: small;
+}
+#section-cont{
+    border: 0.5px solid grey;
+}
+.horizontal-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.section-list{
+    list-style-type: none;
+}
+.section-list img{
+    width: 350px;
+}
+.footer-dev{
+    background-color: #052962;
+    color: white;
+}

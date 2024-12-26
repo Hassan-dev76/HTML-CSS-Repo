@@ -1,0 +1,24 @@
+Image Map:
+	The HTML <map> tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more <area> tags.
+For example:
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+HTML iframe:
+An HTML iframe is used to display a web page within a web page.
+
+Syntax:
+<iframe src="url" title="description"></iframe>
+
+
+
+Summary:
+Learned HTML: You accessed the W3Schools HTML tutorial, which provides a comprehensive introduction to HTML as the standard markup language for web pages. The tutorial emphasizes the ease of learning HTML and includes interactive examples that allow users to edit code and see results in real time. It also offers exercises and quizzes to test knowledge and track progress.
+Installed Bootstrap: You learned about Twitter’s Bootstrap, a popular CSS framework that facilitates responsive web design. This framework helps in creating visually appealing and mobile-friendly websites.
+Applied Learning: You created a website that resembles the structure of The Guardian's UK site. While not an exact copy, your project aimed to mimic its layout and design elements, demonstrating your understanding of HTML and Bootstrap.
