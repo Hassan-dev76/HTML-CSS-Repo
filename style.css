@@ -48,3 +48,38 @@ nav {
     background-color: #052962;
     color: white;
 }
+#podcast-carousel .carousel-inner {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.carousel-control-prev, .carousel-control-next {
+    display: none; /* Hides the default navigation arrows */
+}
+
+.d-flex {
+    display: flex;
+    justify-content: start;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+/* Adding some spacing between cards */
+.card.mx-2 {
+    margin-right: 15px;
+}
